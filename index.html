@@ -1,14 +1,16 @@
+<!DOCTYPE html>
 <head>
     <link href="css/index.css" rel="stylesheet" type="text/css" media="all">
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="js/index.js"></script>
 </head>
 <body>
-    <div id="logo">
+    <div class="logo">
         <a href="/">
-            <img id="logo" src="media/logo.png" onmouseover="this.src='media/logo.gif';" onmouseout="this.src='media/logo.png';">
+            <img id="main-logo" src="media/logo_1.png" onmouseover="start_logo_loop('main-logo', 300);" onmouseout="end_logo_loop('main-logo');">
         </a>
     </div>
     <div class="column-container">

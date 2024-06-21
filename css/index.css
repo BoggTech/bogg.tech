@@ -19,25 +19,29 @@ p {
     color: #230a38;
 }
 
+::selection {
+    background: #e54715
+}
+
 #wrapper {
     background-color: black;
 }
 
-#logo {
+.logo {
     /* keep pixelly-ness */
     image-rendering: -moz-crisp-edges;
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
     -ms-interpolation-mode: nearest-neighbor;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     transition: transform .5s ease;
 }
 
-#logo:hover {
+.logo:hover {
 
-    transform: scale(1.025);
+    transform: scale(1.1);
 }
 
 .column-container {

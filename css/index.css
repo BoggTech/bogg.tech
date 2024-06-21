@@ -1,3 +1,9 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 body {
     width: fit-content;
     margin-left:auto;
@@ -10,6 +16,7 @@ p {
     margin: 0;
     padding: 0;
     word-wrap: break-word;
+    color: #230a38;
 }
 
 #wrapper {
@@ -29,7 +36,8 @@ p {
 }
 
 #logo:hover {
-    transform: scale(1.05);
+
+    transform: scale(1.025);
 }
 
 .column-container {

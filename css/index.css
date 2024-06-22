@@ -40,7 +40,6 @@ p {
 }
 
 .logo:hover {
-
     transform: scale(1.1);
 }
 
@@ -70,10 +69,22 @@ p {
     border-image-slice: 36;
     border-width: 34px;
     border-style: solid;
-    margin-bottom: 20px;
 }
 
 .box {
     background-color:#e5d2ba;
     color:#000;
-  }
+}
+
+@keyframes marquee-left {
+    /* this should be the length of the column its in */
+    from {transform: translateX( 600px )}
+    to {transform: translateX( -100% )}
+}
+
+.marquee-text {
+    white-space: nowrap;
+    animation: marquee-left 60s linear infinite;
+    color:#e54715;
+    width:fit-content;
+}

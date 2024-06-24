@@ -8,9 +8,9 @@
     <script src="js/index.js"></script>
 </head>
 <body>
-    <div class="logo">
+    <div class="logo" onmouseenter="document.getElementById('main-logo').src = 'media/logo.gif'" onmouseleave="document.getElementById('main-logo').src = 'media/logo.png'">
         <a href="/">
-            <img id="main-logo" src="media/logo_1.png" onmouseover="start_logo_loop('main-logo', 300);" onmouseout="end_logo_loop('main-logo');">
+            <img id="main-logo" src="media/logo.png">
         </a>
     </div>
     <div class="column-container">

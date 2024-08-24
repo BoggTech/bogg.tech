@@ -129,3 +129,10 @@ p {
     position: relative;
     bottom: 81px;
 }
+
+#bogg {
+    position: absolute;
+    width: 75px;
+    margin-left: -63px;
+    margin-top: 35px;
+}

@@ -29,19 +29,22 @@ p {
 }
 
 .logo {
+    text-align: center;
+}
+
+#main-logo:hover {
+    transform: scale(1.1);
+}
+
+#main-logo {
     /* keep pixelly-ness */
     image-rendering: -moz-crisp-edges;
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
     -ms-interpolation-mode: nearest-neighbor;
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     transition: transform .5s ease;
-}
-
-.logo:hover {
-    transform: scale(1.1);
 }
 
 .welcome-title {

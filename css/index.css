@@ -113,7 +113,7 @@ p {
 
 @keyframes marquee-left {
     /* this should be the length of the column its in */
-    from {transform: translateX( 600px )}
+    from {transform: translateX( 700px )}
     to {transform: translateX( -100% )}
 }
 

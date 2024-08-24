@@ -1,9 +1,11 @@
+/* fonts */
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
 
+/* misc */
 body {
     width: fit-content;
     margin-left:auto;
@@ -14,9 +16,8 @@ body {
 
 p {
     margin: 0;
-    padding: 0;
-    word-wrap: break-word;
     color: #230a38;
+    text-align: justify;
 }
 
 ::selection {
@@ -43,6 +44,11 @@ p {
     transform: scale(1.1);
 }
 
+.welcome-title {
+    color: #230a38;
+    font-size: 36px;
+}
+
 .column-container {
     display: inline-grid;
     margin-left: auto;
@@ -52,7 +58,7 @@ p {
 .main-column {
     grid-column-start: 1;
     grid-column-end: 1;
-    width:600px;
+    width:700px;
     display: inline-block;
     margin-right: 20px;
 }
@@ -60,20 +66,49 @@ p {
 .secondary-column {
     grid-column-start: 2;
     grid-column-end: 2;
-    width:150px;
+    width:230px;
     display: inline-block;
 }
 
 .outer-box {
-    border-image: url(/media/border.png) 9 fill repeat;
-    border-image-slice: 36;
-    border-width: 34px;
+    border-image: url(/media/frame.png) 9 fill repeat;
+    border-image-slice: 15;
+    border-width: 16px;
     border-style: solid;
 }
 
 .box {
     background-color:#e5d2ba;
     color:#000;
+}
+
+.space-top {
+    margin-top: 5px;
+}
+
+.smaller-space-bottom {
+    margin-bottom: 5px;
+}
+
+.space-bottom {
+    margin-bottom: 15px;
+}
+
+.space-left {
+    margin-left: 5px;
+}
+
+.space-right {
+    margin-right: 5px;
+}
+
+.main-box-pfp {
+    float: right;
+    width: 96px;
+    margin-left: 15px;
+    margin-right: 8px;
+    margin-top: 5px;
+    border-radius: 50%;
 }
 
 @keyframes marquee-left {
@@ -85,6 +120,12 @@ p {
 .marquee-text {
     white-space: nowrap;
     animation: marquee-left 60s linear infinite;
-    color:#e54715;
+    color:#ef6a41;
     width:fit-content;
+}
+
+#goon {
+    float: right;
+    position: relative;
+    bottom: 81px;
 }

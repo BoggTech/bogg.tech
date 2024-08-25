@@ -123,7 +123,7 @@ p {
 
 .marquee-text {
     white-space: nowrap;
-    animation: marquee-left 60s linear infinite;
+    animation: marquee-left 30s linear infinite;
     color:#ef6a41;
     width:fit-content;
 }

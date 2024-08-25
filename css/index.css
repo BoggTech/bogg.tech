@@ -131,7 +131,21 @@ p {
 #goon {
     float: right;
     position: relative;
-    bottom: 81px;
+    bottom: 89px;
+    height: 80px;
+    width: 70px;
+}
+
+.goon-up-sheet {
+    background: url("../media/goon-up.png") 70px 0px;
+}
+
+.goon-fall-sheet {
+    background: url("../media/goon-fall.png") 0px 0px;
+}
+
+.clickable {
+    cursor:pointer;
 }
 
 #bogg {

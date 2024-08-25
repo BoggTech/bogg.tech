@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <head>
+    <link rel="preload" href="/media/goon-fall.png" as="image">
+    <link rel="preload" href="/media/goon-up.png" as="image">
     <link href="css/index.css" rel="stylesheet" type="text/css" media="all">
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,7 +40,7 @@
         <div class="secondary-column">
             <div class="outer-box space-top space-bottom">
                 <div class="box">
-                    <img id="goon" src="media/goon.png">
+                    <p class="goon-up-sheet clickable" id="goon" onclick="hit()">
                     <p class="roboto-regular"><b>Links</b></p>
                     <a class="roboto-regular" href="https://github.com/BoggTech">GitHub</a>
                 </div>

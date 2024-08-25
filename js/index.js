@@ -30,7 +30,7 @@ function animate_hit() {
                 if ( i >= NUM_FRAMES-1 ) {
                     setTimeout(animate_up, WAKEUP_TIME) // wake up after a certain time has passed
                 }
-            }, 60*i); // 30ms animation
+            }, 45*i); // 30ms animation
         })(i, sprite_coord);
     };
 }
@@ -49,7 +49,7 @@ function animate_up() {
                 if ( i >= NUM_FRAMES-1 ) {
                     finish()  // we're done!
                 }
-            }, 60*i); // 30ms animation
+            }, 45*i); // 30ms animation
         })(i, sprite_coord);
     };
 }

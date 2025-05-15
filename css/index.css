@@ -11,7 +11,6 @@ body {
     margin-left:auto;
     margin-right:auto;
     background-color: #622b86;
-    /* background-image: url(/media/bg.png); */
 }
 
 p {
@@ -64,7 +63,6 @@ ul {
 #main-logo {
     /* keep pixelly-ness */
     image-rendering: -moz-crisp-edges;
-    image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
     -ms-interpolation-mode: nearest-neighbor;
     padding-top: 20px;
@@ -78,59 +76,43 @@ ul {
     font-size: 36px;
 }
 
+/* main/secondary column */
 .column-container {
     display: inline-grid;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.main-column {
+.column {
+    margin: 5px;
+}
+
+.left-column {
     grid-column-start: 1;
     grid-column-end: 1;
     width:700px;
-    display: inline-block;
-    margin-right: 20px;
 }
 
-.secondary-column {
+.right-column {
     grid-column-start: 2;
     grid-column-end: 2;
     width:230px;
-    display: inline-block;
-}
+    }
 
-.outer-box {
-    border-image: url(/media/frame.png) 9 fill repeat;
-    border-image-slice: 15;
-    border-width: 16px;
-    border-style: solid;
-}
-
-.box {
+/* inner & outer (outline) box */
+.inner-box {
+    padding: 17px;
+    border-radius: 20px;
     background-color:#e5d2ba;
     color:#000;
 }
 
-.space-top {
-    margin-top: 5px;
+.outer-box {
+    background-color: #491474;
+    padding: 5px;
+    border-radius: 25px;
+    margin: 5px;
 }
 
-.smaller-space-bottom {
-    margin-bottom: 5px;
-}
-
-.space-bottom {
-    margin-bottom: 15px;
-}
-
-.space-left {
-    margin-left: 5px;
-}
-
-.space-right {
-    margin-right: 5px;
-}
-
+/* profile picture in bio box */
 .main-box-pfp {
     float: right;
     width: 96px;
@@ -140,6 +122,7 @@ ul {
     border-radius: 50%;
 }
 
+/* project image box and individual image */
 .project-images {
     display: flex;
     justify-content: center;
@@ -153,6 +136,7 @@ ul {
     border-radius: 3%;
 }
 
+/* custom marquee text */
 @keyframes marquee-left {
     /* this should be the length of the column its in */
     from {transform: translateX( 700px )}
@@ -166,26 +150,28 @@ ul {
     width:fit-content;
 }
 
+/* animated goon */
 #goon {
     float: right;
     position: relative;
-    bottom: 90px;
+    bottom: 96px;
     height: 80px;
     width: 70px;
 }
 
 .goon-up-sheet {
-    background: url("../media/goon-up.png") 70px 0px;
+    background: url("../media/goon-up.png") 70px 0;
 }
 
 .goon-fall-sheet {
-    background: url("../media/goon-fall.png") 0px 0px;
+    background: url("../media/goon-fall.png") 0 0;
 }
 
 .clickable {
     cursor:pointer;
 }
 
+/* bogg holding onto a box */
 #bogg {
     position: absolute;
     width: 75px;

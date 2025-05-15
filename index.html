@@ -1,39 +1,79 @@
 <!DOCTYPE html>
 <head>
+    <title>BoggTech</title>
+    <script src="js/index.js"></script>
+    <meta charset="UTF-8">
+    <link href="css/index.css" rel="stylesheet" type="text/css" media="all">
     <link rel="preload" href="/media/goon-fall.png" as="image">
     <link rel="preload" href="/media/goon-up.png" as="image">
-    <link href="css/index.css" rel="stylesheet" type="text/css" media="all">
-    <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <script src="js/index.js"></script>
 </head>
 <body>
     <div class="logo">
         <a href="/">
-            <img onmouseenter="document.getElementById('main-logo').src = 'media/logo.gif'" onmouseleave="document.getElementById('main-logo').src = 'media/logo.png'" id="main-logo" src="media/logo.png">
+            <img onmouseenter="document.getElementById('main-logo').src = 'media/logo.gif'"
+                 onmouseleave="document.getElementById('main-logo').src = 'media/logo.png'"
+                 id="main-logo" src="media/logo.png"
+                 alt="bogg.tech logo">
         </a>
     </div>
     <div class="column-container">
         <div class="main-column">
             <div class="outer-box space-top smaller-space-bottom">
                 <div class="box">
-                    <img src="media/pfp.png" class='main-box-pfp'>
-                    <h class="roboto-regular welcome-title"><b>Welcome to bogg.tech!</b></h>
-                    <p class="roboto-regular">Hey! I’m Darryl, my pronouns are he/they and I go by <b>Bogg</b> or <b>BoggTech</b> online. I’m a student currently in my third year of a Computer Science course and I am not very good at writing in-depth bios... &#128577;</p>
+                    <img src="media/pfp.png" class='main-box-pfp' alt="BoggTech's Profile Picture">
+                    <h1 class="roboto-regular welcome-title"><b>Welcome to bogg.tech!</b></h1>
+                    <p class="roboto-regular">
+                        Hi! I'm Darryl (he/they) and I typically go by <b>Bogg</b> or <b>BoggTech</b> online.
+                        I'm a Computer Science student currently in my fourth year of study at Trinity College Dublin.
+                        I've had a strong interest in computers & programming for as long as I can remember and I also
+                        like to tinker with 3D printing and other hardware in my free time.</p>
                     <br>
-                    <p class="roboto-regular">There isn't much here (yet), but you can check out some links to the right.</p>
+                    <p class="roboto-regular">
+                        I have experience in Python, Java, Javascript, C, HTML, CSS, MySQL, among other things.
+                    </p>
+                    <br>
+                    <p class="roboto-regular">
+                        Want to contact me? Check out the <b>contact</b> section, or <b>links</b>, to the right.
+                    </p>
                 </div>
             </div>
             <div style="overflow: hidden;">
                 <p class="marquee-text roboto-regular">Some cool scrolling text... with nothing particularly interesting to tell you!</p>
             </div>
-            <img src="media/bogg.png" id="bogg">
+            <img src="media/bogg.png" id="bogg" alt="A Toontown Rewritten character.">
             <div class="outer-box space-top space-bottom">
                 <div class="box">
-                    <h class="roboto-regular welcome-title"><b>Under Construction</b></h>
-                    <p class="roboto-regular">I'm still building things here, so there isn't much to look at. Check back later and there might be more!</p> 
+                    <h1 class="roboto-regular welcome-title"><b>My Projects</b></h1>
+                    <p class="roboto-regular">
+                        Here's a selection of projects I've worked on over the years.
+                        This isn't an exhaustive list, so be sure to check out my GitHub.
+                    </p>
+                    <br>
+                    <h1 class="roboto-regular">Fun</h1>
+                    <h3 class="roboto-regular"><a href="https://github.com/BoggTech/VisorView">VisorView</a> - 2024</h3>
+                    <p class="roboto-regular">
+                        A small tool I developed to take transparent screenshots and view the animations of
+                        <a href="https://www.toontownrewritten.com/">Toontown Rewritten</a> characters. Developed in
+                        Python with Panda3D.
+                    </p>
+                    <div class="project-images">
+                        <img src="media/projects/visorview/1.jpg" class="project-image" alt="VisorView">
+                        <img src="media/projects/visorview/2.jpg" class="project-image" alt="VisorView">
+                    </div>
+                    <br>
+                    <h3 class="roboto-regular"><a href="https://github.com/BoggTech/Make-A-Toon-Archive">Make-A-Toon</a> - 2021</h3>
+                    <p class="roboto-regular">
+                        A Twitter bot that generates random
+                        <a href="https://www.toontownrewritten.com/">Toontown Rewritten</a> Toons, renders them,
+                        and posts them to Twitter. Developed in Python with Panda3D.
+                    </p>
+                    <div class="project-images">
+                        <img src="media/projects/makeatoon/1.png" class="project-image" alt="Make-A-Toon">
+                        <img src="media/projects/makeatoon/2.png" class="project-image" alt="Make-A-Toon">
+                    </div>
                 </div>
             </div>
         </div>
@@ -48,7 +88,39 @@
             <div class="outer-box space-top space-bottom">
                 <div class="box">
                     <p class="roboto-regular"><b>Contact</b></p>
-                    <p class="roboto-regular">Feel free to contact me by email over on my GitHub. I don't link it here because of bots.</p>
+                    <p class="roboto-regular">My email can be found on my GitHub profile.</p>
+                </div>
+            </div>
+            <div class="outer-box space-top space-bottom">
+                <div class="box">
+                    <p class="roboto-regular"><b>My PC Specs</b></p>
+                    <ul class="roboto-regular">
+                        <li><b>Motherboard:</b> B550 GAMING GEN3</li>
+                        <li><b>CPU:</b> Ryzen 7 5700X</li>
+                        <li><b>GPU:</b> GTX 1070 Ti</li>
+                        <li><b>Memory:</b> Trident Z 2x16GB 3600MHz</li>
+                        <li><b>CPU Cooler:</b> AK620</li>
+                        <li><b>SSD:</b> WD Blue SN570</li>
+                        <li><b>Case Fans:</b> NF-S12B</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="outer-box space-top space-bottom">
+                <div class="box">
+                    <p class="roboto-regular"><b>My 3D Printer</b></p>
+                    <p class="roboto-regular">
+                        A modified <b>Creality Ender 3 v2</b>, with:
+                    </p>
+                    <ul class="roboto-regular">
+                        <li>CR-Touch</li>
+                        <li>Creality Red Hotend Upgrade</li>
+                        <li>Raspberry Pi 4 w/ OctoPrint</li>
+                        <li>PlayStation Eye (OctoPrint camera)</li>
+                        <li>Comgrow Magnetic PEI Bed</li>
+                        <li><a href="https://www.thingiverse.com/thing:4897353">This</a> fan shroud</li>
+                        <li><b>SSD:</b> WD Blue SN570</li>
+                        <li><b>Case Fans:</b> NF-S12B</li>
+                    </ul>
                 </div>
             </div>
         </div>

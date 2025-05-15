@@ -20,6 +20,31 @@ p {
     text-align: justify;
 }
 
+h1 {
+    color: #230a38;
+    margin: 0;
+}
+
+h2 {
+    color: #230a38;
+    margin: 0;
+}
+
+h3 {
+    color: #230a38;
+    margin: 0;
+}
+
+li {
+    color: #230a38;
+    margin: 0;
+    padding: 2px
+}
+
+ul {
+    margin: 0;
+}
+
 ::selection {
     background: #e54715
 }
@@ -115,6 +140,19 @@ p {
     border-radius: 50%;
 }
 
+.project-images {
+    display: flex;
+    justify-content: center;
+}
+
+.project-image {
+    width: 30%;
+    display: inline-block;
+    margin-right: 8px;
+    margin-top: 10px;
+    border-radius: 3%;
+}
+
 @keyframes marquee-left {
     /* this should be the length of the column its in */
     from {transform: translateX( 700px )}
@@ -152,5 +190,5 @@ p {
     position: absolute;
     width: 75px;
     margin-left: -63px;
-    margin-top: 35px;
+    margin-top: 600px;
 }

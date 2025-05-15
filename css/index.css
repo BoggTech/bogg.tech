@@ -44,6 +44,10 @@ ul {
     margin: 0;
 }
 
+a {
+    color: #800bd6;
+}
+
 ::selection {
     background: #e54715
 }
@@ -99,7 +103,7 @@ ul {
 
 /* inner & outer (outline) box */
 .inner-box {
-    padding: 17px;
+    padding: 12px;
     border-radius: 20px;
     background-color:#e5d2ba;
     color:#000;
@@ -109,7 +113,7 @@ ul {
     background-color: #491474;
     padding: 5px;
     border-radius: 25px;
-    margin: 5px;
+    margin-bottom: 10px;
 }
 
 /* profile picture in bio box */

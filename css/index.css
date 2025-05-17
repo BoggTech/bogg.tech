@@ -75,6 +75,23 @@ a {
     width: 400px
 }
 
+/* blog */
+.blog-button {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    transition: transform .5s ease;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.blog-button:hover {
+    transform: scale(1.05);
+}
+
 /* columns & spacing */
 .wrapper {
     width: fit-content;
@@ -100,7 +117,7 @@ a {
     grid-column-start: 2;
     grid-column-end: 2;
     width:230px;
-    }
+}
 
 /* boxes o' info */
 .inner-box {
@@ -119,7 +136,7 @@ a {
 
 .scrollable-box {
     overflow-y: scroll;
-    height: 510px;
+    height: 535px;
     scrollbar-width: none;
 }
 
@@ -140,16 +157,16 @@ a {
 }
 
 .project-image {
-    width: 30%;
+    width: 40%;
     display: inline-block;
     margin-right: 8px;
     margin-top: 10px;
     border-radius: 5px;
-    transition: transform .1s ease;
+    transition: transform .2s ease;
 }
 
 .project-image:hover {
-    transform: scale(1.5);
+    transform: scale(1.35);
 }
 
 /* custom marquee text */

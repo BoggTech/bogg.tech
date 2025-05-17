@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="wrapper">
     <div class="logo">
         <a href="/">
             <img onmouseenter="document.getElementById('main-logo').src = 'media/logo.gif'"
@@ -32,7 +33,23 @@
                         like to tinker with 3D printing and other hardware in my free time.</p>
                     <br>
                     <p class="roboto-regular">
+                        I made this website to serve as a half-portfolio, half-personal website for me (as such - if
+                        you're looking for something more professional, check out my LinkedIn instead). It's programmed
+                        in pure vanilla CSS and Javascript, and is hosted on
+                        <a href="https://github.com/BoggTech/bogg.tech">GitHub Pages</a>. I bought the domain for
+                        <i>TEN YEARS</i> in a sale, so feel free to email me in 2034 when I forget to renew it.
+                    </p>
+                    <br>
+                    <p class="roboto-regular">
                         I have experience in Python, Java, Javascript, C, HTML, CSS, MySQL, among other things.
+                    </p>
+                    <br>
+                    <p class="roboto-regular">
+                        I grew up playing
+                        <a href="https://en.wikipedia.org/wiki/Toontown_Online">Disney's Toontown Online</a>, and later
+                        the fan revival <a href="https://www.toontownrewritten.com/">Toontown Rewritten</a>, and it's a
+                        big reason why I got into computers at all. The game and its community are near to my
+                        heart, and you'll probably see it pop up a lot here!
                     </p>
                     <br>
                     <p class="roboto-regular">
@@ -41,18 +58,32 @@
                 </div>
             </div>
             <div style="overflow: hidden;">
-                <p class="marquee-text roboto-regular">Some cool scrolling text... with nothing particularly interesting to tell you!</p>
+                <p class="marquee-text roboto-regular">
+                    I've been making a few changes to the website.
+                    I have gotten <i>SLIGHTLY</i> better at writing bios.
+                </p>
             </div>
             <img src="media/bogg.png" id="bogg" alt="A Toontown Rewritten character.">
             <div class="outer-box">
-                <div class="inner-box">
+                <div class="inner-box scrollable-box">
                     <h1 class="roboto-regular welcome-title"><b>My Projects</b></h1>
                     <p class="roboto-regular">
                         Here's a selection of projects I've worked on over the years.
-                        This isn't an exhaustive list, so be sure to check out my GitHub.
+                        <b>This list is not exhaustive.</b>
                     </p>
                     <br>
-                    <h1 class="roboto-regular">Fun</h1>
+                    <h1 class="roboto-regular">College</h1>
+                    <h3 class="roboto-regular">GameBase - 2024</h3>
+                    <p class="roboto-regular">
+                        Simple review platform for video games, powered by the IGDB API. Developed in a group as part of
+                        CSU33012.
+                    </p>
+                    <div class="project-images">
+                        <img src="media/projects/gamebase/1.jpg" class="project-image" alt="GameBase">
+                        <img src="media/projects/gamebase/2.jpg" class="project-image" alt="GameBase">
+                    </div>
+                    <br>
+                    <h1 class="roboto-regular">Personal</h1>
                     <h3 class="roboto-regular"><a href="https://github.com/BoggTech/VisorView">VisorView</a> - 2024</h3>
                     <p class="roboto-regular">
                         A small tool I developed to take transparent screenshots and view the animations of
@@ -83,6 +114,9 @@
                     <p class="goon-up-sheet clickable" id="goon" onclick="hit()">
                     <p class="roboto-regular"><b>Links</b></p>
                     <a class="roboto-regular" href="https://github.com/BoggTech">GitHub</a>
+                    <br><a class="roboto-regular" href="https://www.linkedin.com/in/darryl-boggins-471aa2281/">LinkedIn</a>
+                    <br><a class="roboto-regular" href="https://bsky.app/profile/bogg.tech">BlueSky</a>
+                    <br><a class="roboto-regular" href="https://cults3d.com/en/users/BoggTech/">Cults3D</a>
                 </div>
             </div>
             <div class="outer-box">
@@ -125,4 +159,11 @@
             </div>
         </div>
     </div>
+</div>
+<div class="footer">
+    <p class="roboto-regular"
+       style="color: #ef6a41; padding: 5px 5px 5px 15px;">
+        <b>BoggTech 2025</b>
+    </p>
+</div>
 </body>
